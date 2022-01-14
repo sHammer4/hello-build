@@ -1,0 +1,97 @@
+/* This is for testing purposes. */
+body {
+	background-color: #edf2f7;
+}
+
+/* This is for our wrapper <div>. */
+.container {
+	width: 960px;
+	margin: 0 auto;
+	line-height: 1.5;
+	font-size: 100%;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+/* Header */
+header {
+	font-weight: bold;
+	background-color: #fff;
+	height: 293px;
+	padding-top: 34px;
+	margin: 38px 0;
+}
+
+h1 {
+	color: #63b3ed;
+	font-size: 125px;
+}
+
+header div {
+	padding: 0 165px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+header p {
+	font-size: 32px;
+	color: #8594ad;
+	margin-right: 18px;
+}
+
+.blue {
+	color: #63b3ed;
+}
+
+button {
+	width: 107px;
+	height: 47px;
+	background-color: #dd6b20;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	border: none;
+}
+
+button:hover {
+	background-color: #fff;
+	color: #a0aec0;
+	border: 2px solid #dd6b20;
+	cursor: pointer;
+}
+
+/* Main */
+main{
+	display: flex;
+	justify-content: space-around;
+	color: #68778d;
+}
+
+h2 {
+	font-size: 32px;
+	font-weight: bold;
+	margin-top: 29px;
+}
+
+li {
+	font-size: 18px;
+	line-height: 35px;
+}
+
+section {
+	width: 300px;
+	padding-bottom: 39px;
+	background-color: #fff;
+}
+
+/* Footer */
+footer {
+	height: 24px;
+	margin: 36px 0 53px;
+	padding: 15px 30px;
+	background-color: #fff;
+	text-align: left;
+	color: #68778d;
+	font-size: 16px;
+	font-style: italic;
+}
